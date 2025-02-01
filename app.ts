@@ -4,10 +4,10 @@ interface Payment {
   to: number;
 }
 
-enum PaymentStatus {
+/*enum PaymentStatus {
   Success = 'success',
   Failed = 'failed',
-}
+}*/
 
 interface IPaymentRequest extends Payment {}
 

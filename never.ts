@@ -9,4 +9,3 @@ function dumpError(): never {
 function rec(): never {
   return rec();
 }
-
