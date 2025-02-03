@@ -34,7 +34,7 @@ interface IResponseFaild {
   data: IPaymentFailed
 }
 
-// Запрос в виде платежа
+/* Запрос в виде платежа
 {
 	"sum": 10000,
 	"from": 2,
@@ -56,4 +56,4 @@ interface IResponseFaild {
 		"errorMessage": "Недостаточно средств",
 		"errorCode": 4
 	}
-}
+}*/

@@ -19,7 +19,7 @@ interface User {
   login: 'Vasia1'
 }*/
 
-const user = {
+const user2 = {
   name: 'Vasia',
   email: 'Vasia@maik.ru',
   login: 'Vasia1'
@@ -38,7 +38,7 @@ interface Admin {
 // Функция МАПИНГА
 function userToAdmin(user: User): Admin {
   return {
-    name: user.name,
+    name: user2.name,
     role: 1
   }
 }
